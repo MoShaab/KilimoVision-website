@@ -1,10 +1,10 @@
 
 import Hero from './ui/hero-area';
 import LetUsKnow from './ui/letUsKnow';
-import DisplayAgents from './ui/agents';
-import Achieved from './ui/achievements';
-import TestimonialSection from './ui/testmonials';
-import Gallery from './ui/components/Gallery/index';
+// import DisplayAgents from './ui/agents';
+// import Achieved from './ui/achievements';
+// import TestimonialSection from './ui/testmonials';
+// import Gallery from './ui/components/Gallery/index';
 import Faq from './ui/components/faqs/faqs';
 import About from './ui/components/About/about';
 import Services from './ui/components/Services/services';

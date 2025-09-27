@@ -28,10 +28,10 @@ export default function LetUsKnow() {
 
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
           <h1 className={`${inter.className} text-xl md:text-3xl font-bold`}>
-            Didn't find what you were looking for?
+            Didn&apost find what you were looking for?
           </h1>
           <p className={`${lusitana.className} text-3xl md:text-3xl`}>
-          Don't fret. We got your back.
+          Don&apost fret. We got your back.
           </p>
           <Fade direction={'up'} delay={100} cascade damping={1e-1} triggerOnce={true}>
                             <div className='md:flex align-middle justify-center lg:justify-start'>
