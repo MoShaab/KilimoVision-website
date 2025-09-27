@@ -1,6 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 import { Menu, X, Leaf } from 'lucide-react';
+import Image from 'next/image'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,7 +20,13 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-gradient-to-br from-green-500 to-blue-600 rounded-lg flex items-center justify-center">
-              <Leaf className="w-5 h-5 text-white" />
+            <Image
+                src="/logo.jpg"
+                alt="KilimoVision Logo"
+                width={120}
+                height={40}
+            />
+
             </div>
             <span className="text-xl font-bold text-gray-900">KilimoVision</span>
           </div>
