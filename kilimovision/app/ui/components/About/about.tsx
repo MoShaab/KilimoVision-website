@@ -2,10 +2,10 @@ import React from 'react';
 import { Target, Award, Globe, TrendingUp } from 'lucide-react';
 
 const stats = [
-  { label: 'Years of Experience', value: '15+' },
-  { label: 'Countries Served', value: '25' },
-  { label: 'Successful Projects', value: '1000+' },
-  { label: 'Team Members', value: '100+' }
+  { label: 'Years of Experience', value: '3+' },
+  { label: 'Locations Served', value: '5' },
+  { label: 'Successful Projects', value: '10+' },
+  { label: 'Team Members', value: '20+' }
 ];
 
 const values = [
@@ -38,7 +38,7 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center mb-20">
           <div className="space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-              Leading Agricultural Innovation Since 2009
+              Leading Agricultural Innovation Since 2023
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed">
               AgriTech Solutions was founded with a vision to bridge the gap between traditional farming 

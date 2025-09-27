@@ -11,7 +11,7 @@ const Footer = () => {
               <div className="w-8 h-8 bg-gradient-to-br from-green-500 to-blue-600 rounded-lg flex items-center justify-center">
                 <Leaf className="w-5 h-5 text-white" />
               </div>
-              <span className="text-xl font-bold">AgriTech Solutions</span>
+              <span className="text-xl font-bold">KilimoVision</span>
             </div>
             <p className="text-gray-300 leading-relaxed">
               Transforming agriculture through innovative technology solutions that help farmers 
@@ -66,15 +66,15 @@ const Footer = () => {
             <ul className="space-y-3 text-gray-300">
               <li className="flex items-center space-x-3">
                 <Phone className="w-4 h-4" />
-                <span>+1 (555) 123-4567</span>
+                <span>+254 729111768</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="w-4 h-4" />
-                <span>info@agritechsolutions.com</span>
+                <span>info@Kilimovision.org</span>
               </li>
               <li className="flex items-start space-x-3">
                 <MapPin className="w-4 h-4 mt-1" />
-                <span>123 Innovation Drive<br />Tech Valley, CA 94025</span>
+                <span>Fafi, Garissa County</span>
               </li>
             </ul>
           </div>
@@ -83,7 +83,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-400">
-              © 2025 AgriTech Solutions. All rights reserved.
+              © 2025 Kilimovision. All rights reserved.
             </div>
             <div className="flex space-x-6 text-gray-400">
               <a href="#" className="hover:text-green-400 transition-colors">Privacy Policy</a>
