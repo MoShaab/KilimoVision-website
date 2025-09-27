@@ -33,10 +33,10 @@ const Technology = () => {
     <section id="technology" className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-yellow-300 mb-4">
             Cutting-Edge Technology Stack
           </h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg text-yellow-300 max-w-3xl mx-auto">
             We leverage the latest technologies to create powerful, scalable, and user-friendly 
             agricultural solutions that drive real results for modern farmers.
           </p>
@@ -63,10 +63,10 @@ const Technology = () => {
                 </div>
 
                 <div className="flex-1 text-center md:text-left">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                  <h3 className="text-xl font-semibold text-yellow-300 mb-3">
                     {tech.title}
                   </h3>
-                  <p className="text-gray-600 leading-relaxed">
+                  <p className="text-yellow-300 leading-relaxed">
                     {tech.description}
                   </p>
                 </div>

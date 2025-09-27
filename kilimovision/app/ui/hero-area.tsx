@@ -4,20 +4,20 @@ import { Button } from "@/components/ui/button"
 
 const Hero = () => {
   return (
-    <section id="home" className="pt-16 min-h-screen from-green-50 to-blue-50 flex items-center">
+    <section id="home" className="pt-16 min-h-screen flex items-center ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="space-y-4">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-yellow-300 leading-tight">
                 Revolutionizing
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-blue-600">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-blue-300">
                   {' '}Agriculture
                 </span>
                 <br />
                 Through Technology
               </h1>
-              <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-lg">
+              <p className="text-lg md:text-xl text-yellow-300 leading-relaxed max-w-lg">
                 We combine cutting-edge technology with agricultural expertise to help farmers increase productivity, 
                 reduce costs, and build sustainable farming operations for the future.
               </p>
@@ -26,16 +26,16 @@ const Hero = () => {
 
             <div className="grid grid-cols-3 gap-8 pt-8 border-t border-gray-200">
               <div>
-                <div className="text-2xl font-bold text-gray-900">500+</div>
-                <div className="text-sm text-gray-600">Farms Optimized</div>
+                <div className="text-2xl font-bold text-yellow-300">500+</div>
+                <div className="text-sm text-yellow-300">Farms Optimized</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-gray-900">25%</div>
-                <div className="text-sm text-gray-600">Avg. Yield Increase</div>
+                <div className="text-2xl font-bold text-yellow-300">25%</div>
+                <div className="text-sm text-yellow-300">Avg. Yield Increase</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-gray-900">30%</div>
-                <div className="text-sm text-gray-600">Cost Reduction</div>
+                <div className="text-2xl font-bold text-yellow-300">30%</div>
+                <div className="text-sm text-yellow-300">Cost Reduction</div>
               </div>
             </div>
           </div>

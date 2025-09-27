@@ -37,15 +37,15 @@ const About = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center mb-20">
           <div className="space-y-6">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+            <h2 className="text-3xl md:text-4xl font-bold text-yellow-300">
               Leading Agricultural Innovation Since 2023
             </h2>
-            <p className="text-lg text-gray-600 leading-relaxed">
+            <p className="text-lg text-yellow-300 leading-relaxed">
               AgriTech Solutions was founded with a vision to bridge the gap between traditional farming 
               and modern technology. We believe that by empowering farmers with the right tools and 
               knowledge, we can create a more sustainable and productive agricultural future.
             </p>
-            <p className="text-lg text-gray-600 leading-relaxed">
+            <p className="text-lg text-yellow-300 leading-relaxed">
               Our team of agricultural experts, engineers, and data scientists work together to develop 
               practical solutions that address real-world farming challenges. From small family farms 
               to large commercial operations, we tailor our technology to meet diverse needs.
@@ -65,10 +65,10 @@ const About = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16">
           {stats.map((stat, index) => (
             <div key={index} className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
+              <div className="text-3xl md:text-4xl font-bold text-yellow-300 mb-2">
                 {stat.value}
               </div>
-              <div className="text-gray-600">
+              <div className="text-yellow-300">
                 {stat.label}
               </div>
             </div>
@@ -83,10 +83,10 @@ const About = () => {
                 <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-blue-600 rounded-xl flex items-center justify-center mx-auto mb-4">
                   <IconComponent className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                <h3 className="text-xl font-semibold text-yellow-300 mb-3">
                   {value.title}
                 </h3>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-yellow-300 leading-relaxed">
                   {value.description}
                 </p>
               </div>
