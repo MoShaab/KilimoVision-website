@@ -41,7 +41,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-4">Company</h3>
+            <h3 className="text-lg font-semibold mb-4">Organization</h3>
             <ul className="space-y-2 text-gray-300">
               <li>
                 <a href="#" className="hover:text-green-400 transition-colors">About Us</a>
