@@ -41,7 +41,7 @@ const About = () => {
               Leading Agricultural Innovation Since 2023
             </h2>
             <p className="text-lg text-yellow-300 leading-relaxed">
-              AgriTech Solutions was founded with a vision to bridge the gap between traditional farming 
+              KilimoVision was founded with a vision to bridge the gap between traditional farming 
               and modern technology. We believe that by empowering farmers with the right tools and 
               knowledge, we can create a more sustainable and productive agricultural future.
             </p>
